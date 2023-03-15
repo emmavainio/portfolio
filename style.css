@@ -5,13 +5,18 @@ body {
   /* Lägg in saker i body för att inte upprepa kod */
 }
 
-img {
+img.portrait {
     max-width: 300px;
     height: auto;
     border-radius: 50%;
   }
 
-h1, h2 {
+img.portfolio {
+    max-height: 300px;
+    height: auto;
+  }
+
+h1, h2 , h3 {
     font-family: 'Bebas Neue', cursive;
     text-align: center;
 }
@@ -30,6 +35,7 @@ a:hover {
 
 a:link {
   text-decoration: none;
+  color: gray;
 }
 
 .center {
@@ -50,8 +56,15 @@ nav {
 footer {
   font-size: 12px;
   text-align: center;
+  margin-top: 10px;
 }
 
 hr {
   border: 1px solid rgb(80, 80, 80);
+}
+
+.contact {
+  margin-bottom: 0.5px;
+  margin-top: 0.5px;
+  margin-left: 0%;
 }
