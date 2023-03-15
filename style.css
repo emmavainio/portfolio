@@ -1,3 +1,10 @@
+body {
+  background: black;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  /* Lägg in saker i body för att inte upprepa kod */
+}
+
 img {
     max-width: 300px;
     height: auto;
@@ -7,7 +14,10 @@ img {
 h1, h2 {
     font-family: 'Bebas Neue', cursive;
     text-align: center;
-    
+}
+
+h1 {
+  font-size: 48px; 
 }
 
 a:visited {
@@ -28,13 +38,6 @@ a:link {
     margin-right: auto;
     width: 50%;
   }
-
-body {
-    background: black;
-    color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-    /* Lägg in saker i body för att inte upprepa kod */
-}
 
 html {
     font-size: 24px;
