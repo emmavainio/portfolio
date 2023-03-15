@@ -10,6 +10,18 @@ h1, h2 {
     
 }
 
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: aqua;
+}
+
+a:link {
+  text-decoration: none;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -32,6 +44,9 @@ nav {
   color:gray;
 }
 
-p {
-  max-width: 50%;
+
+
+footer {
+  font-size: 12px;
+  text-align: center;
 }
