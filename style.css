@@ -1,0 +1,37 @@
+img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+h1, h2 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+body {
+    background: black;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    /* Lägg in saker i body för att inte upprepa kod */
+}
+
+html {
+    font-size: 24px;
+    /* Lägg in saker i html för att gälla allt och det inte passar i body*/
+}
+nav {
+  color:gray;
+}
+
+p {
+  max-width: 50%;
+}
