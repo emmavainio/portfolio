@@ -2,7 +2,7 @@ body {
   background: black;
   color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
-  /* Lägg in saker i body för att inte upprepa kod */
+  font-size: 1em;
 }
 
 img.portrait {
@@ -12,8 +12,8 @@ img.portrait {
   }
 
 img.portfolio {
-    max-height: 300px;
-    height: auto;
+    max-height: 13rem;
+    width: auto;
   }
 
 h1, h2 , h3 {
@@ -23,7 +23,7 @@ h1, h2 , h3 {
 }
 
 h1 {
-  font-size: 48px; 
+  font-size: 3rem; 
 }
 
 a:visited {
@@ -46,13 +46,11 @@ a:link {
     width: 50%;
   }
 
-html {
-    font-size: 24px;
-    /* Lägg in saker i html för att gälla allt och det inte passar i body*/
-}
+
 nav {
   color:gray;
   font-family: 'Bebas Neue', cursive;
+  font-size: 1.5em;
 }
 
 footer {
@@ -79,4 +77,8 @@ p.aboutme {
 
 #github-logo {
   max-height: 26px;
+}
+
+iframe {
+  margin: 25px;
 }
