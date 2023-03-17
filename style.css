@@ -1,14 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background: black;
   color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 1rem;
+  min-height: 100vh;
+}
+
+.container {
+  padding: 0.4rem;
+  font-size: 1.2rem;
 }
 
 img.portrait {
     max-width: 300px;
     height: auto;
     border-radius: 50%;
+    margin: auto;
+    outline: 2px solid gray;
+    outline-offset: 0.5rem;
   }
 
 img.portfolio {
@@ -41,9 +57,9 @@ a:link {
 
 .center {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
   }
 
 
@@ -60,7 +76,21 @@ footer {
 }
 
 hr {
-  border: 1px solid rgb(80, 80, 80);
+  border: 2px solid rgb(80, 80, 80);
+}
+
+p {
+  margin: 0.8rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+li {
+  line-height: 1.4;
+}
+
+table {
+  margin: 1em;
 }
 
 .contact {
@@ -69,7 +99,7 @@ hr {
   margin-left: 0%;
 }
 
-p.aboutme {
+.aboutme {
   max-width: 50%;
   margin-left: 25%;
   margin-right: 25%;
