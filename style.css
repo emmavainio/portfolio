@@ -19,6 +19,7 @@ img.portfolio {
 h1, h2 , h3 {
     font-family: 'Bebas Neue', cursive;
     text-align: center;
+    margin: 10px;
 }
 
 h1 {
@@ -51,6 +52,7 @@ html {
 }
 nav {
   color:gray;
+  font-family: 'Bebas Neue', cursive;
 }
 
 footer {
@@ -67,4 +69,14 @@ hr {
   margin-bottom: 0.5px;
   margin-top: 0.5px;
   margin-left: 0%;
+}
+
+p.aboutme {
+  max-width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#github-logo {
+  max-height: 26px;
 }
